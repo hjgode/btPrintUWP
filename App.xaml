@@ -1,0 +1,14 @@
+﻿<Application
+    x:Class="btPrintUWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:btPrintUWP"
+    RequestedTheme="Light">
+    <Application.Resources>
+        <x:String x:Key="description">
+            First tap [List Printers] to see all paired devices. Then select the printer you want to use to print a demo label or receipt. 
+            Ensure you are using the printer language that the printer is set to: csim for CSIM, escp for ESC/P, fp for FingerPrint, ipl for Intermec Printing Language, xsim for XSIM.
+        </x:String>
+    </Application.Resources>
+
+</Application>
